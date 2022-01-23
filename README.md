@@ -32,5 +32,12 @@ end loop;
 You can see that mat_lhs is an identity matrix and when we multiply it by this other matrix we get the same matrix back proving the identity property. 
 ![image](https://user-images.githubusercontent.com/29047827/150667566-abf77536-f22c-4c94-bb67-ac4f3d574cd0.png)
 
+Another Multiplication:
+![image](https://user-images.githubusercontent.com/29047827/150668134-4794adcc-0e2d-488d-a9db-94db27c35a90.png)
+
+Verifying Result in MATLAB:
+
+![image](https://user-images.githubusercontent.com/29047827/150668253-1ae93069-13ea-4629-a622-f46069680507.png)
+
 ### Sources I used: 
 https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm
