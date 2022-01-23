@@ -1,5 +1,5 @@
-vcom -work work -2008 ../rtl/matmult.vhd;
-vcom -work work -2008 ../tb/matmult_tb.vhd; 
+vcom -work work -2008 matmult.vhd;
+vcom -work work -2008 matmult_tb.vhd; 
 
 vsim -onfinish stop work.matmult_tb; 
 add wave -r /*
