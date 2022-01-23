@@ -11,16 +11,17 @@ The definition of matrix multiplication is that if C = AB for an n × m matrix A
 - In the load stage of the pipeline we convert from a flattened matrix to a 2D array of signed numbers.
 - In the multiply stage we multiply the two matrices using the algorithm : 
   
-  Let C be a new matrix of the appropriate size
-  For i from 1 to n:
-    For j from 1 to p:
-      Let sum = 0
-      For k from 1 to m:
-        Set sum ← sum + Aik × Bkj
-      Set Cij ← sum
-  Return C
+  1. Let C be a new matrix of the appropriate size
+  2. For i from 1 to n:
+  3.  For j from 1 to p:
+  4.    Let sum = 0
+  5.    For k from 1 to m:
+  6.      Set sum ← sum + Aik × Bkj
+  7.     Set Cij ← sum
+  8. Return C
 
 - Using the property for identity matrices of: In * An = An, I was able to verify the functionality pretty easily. 
 
-### Simulation Screenshots: 
+### Simulation Screenshot: 
 
+![image](https://user-images.githubusercontent.com/29047827/150667566-abf77536-f22c-4c94-bb67-ac4f3d574cd0.png)
